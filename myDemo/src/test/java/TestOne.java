@@ -1,5 +1,14 @@
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 public class TestOne {
-    public static void main(String[] args){
-        System.out.println("Hello World!!!");
+    @Test
+    public void test_one(){
+        Assert.assertTrue(true);
     }
+    @Test
+    public void test_two(){
+        Assert.assertTrue(false);
+    }
+
 }
