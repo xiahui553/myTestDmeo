@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import java.util.UUID;
 
-public class TestTwo {
+public class TwoTest {
     @DataProvider(name = "test1")
     public Object[][] createData1() {
         return new Object[][] {
